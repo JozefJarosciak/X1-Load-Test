@@ -84,8 +84,8 @@ All configuration variables are defined at the top of the `x1_load_test.py` scri
 | `QUEUE_MAXSIZE`        | Maximum number of signed transactions waiting in the queue.                                                               | `3000`                                   |
 | `MEASUREMENT_INTERVAL` | How often (in seconds) to print throughput stats (TPS, errors, queue size, etc.).                                         | `5`                                      |
 | `SOLANA_RPC_URLS`      | List of one or more RPC endpoints to submit transactions to.                                                              | `["https://rpc.testnet.x1.xyz"]`         |
-| `ACCOUNT_PUBLIC`       | Base58-encoded **public key** of the funding/test account.                                                                | (empty)                                  |
-| `ACCOUNT_PRIVATE`      | Base58-encoded **private key** of the same account (used to sign transactions).                                           | (empty)                                  |
+| `ACCOUNT_PUBLIC`       | Base58-encoded **public key** of the funding/test account.                                                                | (add your)                                  |
+| `ACCOUNT_PRIVATE`      | Base58-encoded **private key** of the same account (used to sign transactions).                                           | (add your)                                  |
 
 ### Important Notes
 
