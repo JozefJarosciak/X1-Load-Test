@@ -142,8 +142,11 @@ All configuration variables are defined at the top of the `x1_load_test.py` scri
 Every `MEASUREMENT_INTERVAL` seconds, the script prints something like:
 
 ```
-[5s] TPS=123.4, total_ok=567, errors=12, queue_size=90
+[5s] TPS=2325.9, total_ok=139555, errors=0, queue_size=500
 ```
+
+![image](https://github.com/user-attachments/assets/1dd9e8cc-2107-4d30-82cf-8515c511698f)
+
 
 Where:
 - `TPS` = **transactions per second** in the last interval
